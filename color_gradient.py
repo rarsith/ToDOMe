@@ -39,7 +39,7 @@ class PaintWidget(QWidget):
     def paintEvent(self, event):
         qp = QPainter(self)
 
-        qp.setPen(Qt.black)
+        qp.setPen(Qt.blue)
         size = self.size()
 
         # Colored rectangles
